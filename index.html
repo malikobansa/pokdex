@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pokedex">
+        <h1>Pokédex</h1>
+        <input type="number" id="pokemonId" placeholder="Enter Pokémon ID (1-151)" />
+        <button id="fetchBtn">Fetch Pokémon</button>
+
+        <div id="pokemonCard" class="hidden">
+            <h2 id="pokemonName"></h2>
+            <img id="pokemonImage" src="" alt="Pokémon Image" />
+            <p id="pokemonType"></p>
+            <p id="pokemonWeight"></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
